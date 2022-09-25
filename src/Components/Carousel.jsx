@@ -17,8 +17,7 @@ function Carousel() {
           style: {
             width: "120%",
             position:"absolute",
-            left:-140
-          }
+            left:-140          }
         }}
         activeSlideIndex={activeSlide}
         activeSlideProps={{

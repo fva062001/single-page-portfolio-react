@@ -7,12 +7,12 @@ import module5 from './pattern-photography.svg'
 import module6 from './pattern-motion-graphics.svg'
 function Grid(){
     return(
-        <div className="flex space-x-7">
+        <div className="flex space-x-7 sm:flex flex-col items-center space-y-6 space-x-0">
             <div className="bg-[#755CDE] p-2 rounded-lg w-[354px] h-[364px] relative">
                 <img className="absolute right-5 top-5" src={module1} alt="" />
                 <p className="absolute bottom-5 left-5 font-bold text-white">Graphic Design</p>
             </div>
-            <div className="flex flex-col space-y-6">
+            <div className="flex flex-col space-y-6 sm:flex">
                 <div className="flex flex-row space-x-7">
                     <div className="bg-[#F6A560] relative rounded-lg w-[164px] h-[182px]">
                         <img className="absolute top-5 right-5" src={module2} alt="" />
