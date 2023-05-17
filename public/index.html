@@ -43,4 +43,15 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+<script>
+  if (screen.orientation && screen.orientation.lock) {
+    screen.orientation.lock();
+  } else if (screen.lockOrientation) {
+    screen.lockOrientation('portrait-primary');
+  } else if (screen.mozLockOrientation) {
+    screen.mozLockOrientation('portrait-primary');
+  } else if (screen.msLockOrientation) {
+    screen.msLockOrientation('portrait-primary');
+  }
+</script>
 </html>
